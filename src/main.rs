@@ -1,7 +1,6 @@
-mod my_map;
-use my_map::{init_my_map, MY_MAP};
-
 mod another_file;
+
+use another_file::my_map::{init_my_map, MY_MAP};
 use another_file::print_my_map;
 
 fn main() {

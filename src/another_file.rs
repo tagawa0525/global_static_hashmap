@@ -1,5 +1,6 @@
 #[path = "./my_map.rs"]
-mod my_map;
+pub mod my_map;
+
 use my_map::MY_MAP;
 
 pub fn print_my_map() {
